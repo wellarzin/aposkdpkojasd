@@ -1,0 +1,52 @@
+:root{
+    --fundo: #353945;
+    --text: #27272E;
+    --inputtext: #EDF2F7;
+    --inputsubmit: #141416;
+}
+
+header{
+    width: 38.5rem;
+    height: 22.7rem;
+    flex-shrink: 0;
+    background-color: var(--fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+}
+
+.logo{
+    display: flex;
+    width: 10rem;
+    padding: 2rem 5rem;
+    height: 3.7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 4rem;
+    color: var(--inputsubmit);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 13px;
+}
+
+.title{
+    width: 47.5rem;
+    height: 5rem;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.info{
+    width: 35.7rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
